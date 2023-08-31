@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .cake {
+    width: 120px;
+    height: 180px;
+    background-color: #f8d45e;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .candles {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    margin: 0 auto;
+  }
+  
+  .candle {
+    width: 10px;
+    height: 60px;
+    background-color: #ff5733;
+    border-radius: 5px;
+  }
+  
+  @keyframes blink {
+    0%, 100% {
+      opacity: 0.5;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+  
